@@ -7,7 +7,7 @@ This firmware turns a Raspberry Pi Pico W into a **wireless robot controller**. 
 **In one sentence:** Phone app → Bluetooth → Pico W → motor drivers → wheels spin.
 
 > [!IMPORTANT]
-> **Hardware Platform:** This project is built around the **MECHA PICO** expansion board, a custom PCB designed for the MCTR 260 term project at the University of Alberta. All documentation, pin assignments, wiring diagrams, and code examples assume this specific board. If you are building from a bare Pico W, refer to the [Wiring Guide](doc/user_guide_documentation/WIRING_GUIDE.md) for the full connection list.
+> **Hardware Platform:** This project is built around the **MECHA PICO** expansion board, a custom PCB designed for the MCTR 260 term project at the University of Alberta. All documentation, pin assignments, wiring diagrams, and code examples assume this specific board. If you are building from a bare Pico W, refer to the [Wiring Guide](doc/user_guide_documentation/WIRING_GUIDE.md) for the full connection list..
 
 ---
 
