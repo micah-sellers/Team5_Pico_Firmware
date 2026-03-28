@@ -56,10 +56,10 @@
 // BLE advertised name - CHANGE THIS TO RENAME YOUR ROBOT
 // TIP: Include a keyword the app recognizes so your robot appears at the
 //      top of the scan list: robot, rc, pico, mecanum, tank, meca, controller
-#define DEVICE_NAME "TimberBot_RC"
+#define DEVICE_NAME "ARME_meca"
 
 // 6-digit pairing PIN (must match what you enter on the app)
-#define BLE_PASSKEY 123456
+#define BLE_PASSKEY 05
 
 // =============================================================================
 // MOTOR TYPE SELECTION (Enable one for DC motors, one for steppers)
@@ -87,13 +87,13 @@
 // =============================================================================
 
 // Wheel radius in millimeters
-#define WHEEL_RADIUS_MM 50.0f
+#define WHEEL_RADIUS_MM 45.5f
 
 // Distance from center to front/back axle (half of wheelbase)
-#define WHEELBASE_HALF_MM 100.0f
+#define WHEELBASE_HALF_MM 93.0f
 
 // Distance from center to left/right wheel (half of track width)
-#define TRACK_WIDTH_HALF_MM 100.0f
+#define TRACK_WIDTH_HALF_MM 135.1f
 
 // NOTE: Joystick deadzone is handled by the Flutter app at input level
 
