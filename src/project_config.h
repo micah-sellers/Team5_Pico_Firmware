@@ -87,13 +87,13 @@
 // =============================================================================
 
 // Wheel radius in millimeters
-#define WHEEL_RADIUS_MM 45.5f
+#define WHEEL_RADIUS_MM 44.45f
 
 // Distance from center to front/back axle (half of wheelbase)
 #define WHEELBASE_HALF_MM 93.0f
 
 // Distance from center to left/right wheel (half of track width)
-#define TRACK_WIDTH_HALF_MM 135.1f
+#define TRACK_WIDTH_HALF_MM 107.2f
 
 // NOTE: Joystick deadzone is handled by the Flutter app at input level
 
@@ -197,14 +197,14 @@
 #define STEPPER_MICROSTEPPING 8
 
 // Maximum step rate (steps per second)
-#define STEPPER_MAX_SPEED 4000.0f
+#define STEPPER_MAX_SPEED 10000.0f
 
 // Acceleration (steps per second squared)
-#define STEPPER_ACCELERATION 8000.0f
+#define STEPPER_ACCELERATION 10000.0f
 
 // Stepper pulse generation interval (microseconds)
 // Lower = faster response, but more CPU usage
-#define STEPPER_PULSE_INTERVAL_US 500
+#define STEPPER_PULSE_INTERVAL_US 300
 
 // Speed deadzone - speeds below this are treated as zero (steps/sec)
 #define STEPPER_SPEED_DEADZONE 10.0f
